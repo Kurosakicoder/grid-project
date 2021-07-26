@@ -14,7 +14,7 @@ html, body {
     'header header header header header header'
     'main main main main right right'
     'menu menu menu menu footer footer';
-    grid-gap: 8px;
+    grid-gap: 10px;
     padding: 30px;
 }
 
