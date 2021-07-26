@@ -10,17 +10,24 @@ html, body {
 
 .grid-container{
     display: grid;
-    grid-template-areas: 'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-    grid-gap: 10px;
-    background-color: #2196f3;
+    grid-template-areas: 
+    'header header header header header header'
+    'main main main main right right'
+    'menu menu menu menu footer footer';
+    grid-gap: 8px;
     padding: 30px;
 }
 
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 50px 0;
+    padding: 10px 0;
     font-size: 30px;
+}
+
+img {
+    opacity: 0.2;
+}
+
+img:hover {
+    opacity: 1;
 }
